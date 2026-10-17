@@ -10,7 +10,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "platforms": ["android","ios","web"],
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro"
+    },
     "android": {
       "package": "com.username.najda",
       "versionCode": 1
